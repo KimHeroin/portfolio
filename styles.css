@@ -2,7 +2,7 @@
   font-family:'Inconsolata', monospace;
   font-size: 3.6em ;
   font-color: #000000;
-  font-weight: regular;
+  font-weight: 400;
 
   box-sizing: border-box;
   padding: 100px 10%;
@@ -11,9 +11,9 @@
 
 .title{
   font-family:'Inconsolata', monospace;
-  font-size: 2.4em ;
+  font-size: 2em ;
   font-color: #000000;
-  font-weight: regular;
+  font-weight: 300;
 
   box-sizing: border-box;
   padding: 10px 5% 20px;
@@ -24,7 +24,7 @@
   font-family:'Inconsolata', monospace;
   font-size: 1.5em;
   font-color: #0000FF;
-  font-weight: light;
+  font-weight: 300;
 
   background-color: #FFFFFF;
   box-sizing : border-box;
@@ -34,13 +34,13 @@
   margin: 10px;
 }
 
-.subtitle{
-  font-family:'Inconsolata', monospace, italic;
-  font-size: 1.8em;
+.back{
+  font-family:'Inconsolata', monospace;
+  font-size: 1em;
   font-color: #0000FF;
-  font-weight: light;
+  font-weight: 200;
 
-  padding: 10px 0% 20px;
+  padding: 10px 0% 0px;
 }
 
 .kor{
