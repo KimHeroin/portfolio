@@ -13,11 +13,18 @@
   font-family:'Inconsolata', monospace;
   font-size: 2em ;
   font-color: #000000;
-  font-weight: 300;
+  font-weight: 400;
 
   box-sizing: border-box;
   padding: 10px 5% 20px;
   border: 0px;
+}
+
+.subtitle{
+  font-family:'Inconsolata', monospace;
+  font-size: 1.5em ;
+  font-color: #000000;
+  font-weight: 400;
 }
 
 .category{
@@ -38,9 +45,9 @@
   font-family:'Inconsolata', monospace;
   font-size: 1em;
   font-color: #0000FF;
-  font-weight: 200;
+  font-weight: 300;
 
-  padding: 10px 0% 0px;
+  padding: 10px 5% 0px;
 }
 
 .kor{
