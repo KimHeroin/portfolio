@@ -8,7 +8,9 @@ function setup(){
 }
 
 function draw(){
+  pointLight(230, 230, 230, mouseX-400, mouseY-400, 0 );
   background(255);
+  normalMaterial();
   texture(img);
   box(200);
   rotate(angle, angle, angle);
