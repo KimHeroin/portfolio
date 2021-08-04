@@ -16,9 +16,8 @@
   font-weight: regular;
 
   box-sizing: border-box;
-  padding: 50px;
+  padding: 10px 5%;
   border: 0px;
-  margin: 10px;
 }
 
 .category{
@@ -30,7 +29,7 @@
   background-color: #FFFFFF;
   box-sizing : border-box;
   width: 80%;
-  padding: 30px;
+  padding: 10px 10%;
   border: 0px;
   margin: 10px;
 }
