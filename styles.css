@@ -1,0 +1,43 @@
+.first_title{
+  font-family:'Inconsolata', monospace;
+  font-size: 3.6em ;
+  font-color: #000000;
+  font-weight: regular;
+
+  box-sizing: border-box;
+  padding: 100px 10%;
+
+}
+
+.title{
+  font-family:'Inconsolata', monospace;
+  font-size: 2.4em ;
+  font-color: #000000;
+  font-weight: regular;
+
+  box-sizing: border-box;
+  padding: 50px;
+  border: 0px;
+  margin: 10px;
+}
+
+.category{
+  font-family:'Inconsolata', monospace;
+  font-size: 1.5em;
+  font-color: #0000FF;
+  font-weight: light;
+
+  background-color: #FFFFFF;
+  box-sizing : border-box;
+  width: 80%;
+  padding: 30px;
+  border: 0px;
+  margin: 10px;
+}
+
+.kor{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.2em;
+  font-color: #000000;
+  font-weight: light;
+}
