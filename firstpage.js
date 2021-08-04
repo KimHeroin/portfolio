@@ -11,6 +11,6 @@ function draw(){
   background(255);
   texture(img);
   box(200);
-  rotate(angle, [1,1,1])
+  rotate(angle, angle, angle);
   angle+=1;
 }
