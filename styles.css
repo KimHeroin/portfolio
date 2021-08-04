@@ -5,7 +5,7 @@
   font-weight: 400;
 
   box-sizing: border-box;
-  padding: 80px 10%;
+  padding: 80px 8%;
 }
 
 .container{}
@@ -82,7 +82,7 @@ span.subtitle{
   font-family:'Inconsolata', monospace;
   font-size: 1.2em;
   font-weight: 400;
-  font-color:#FF0000;
+  font-color: #FF0000;
 
   padding: 10px 5% 0px;
 }
@@ -119,4 +119,14 @@ a:hover{
 }
 .contact a:hover{
   color:#FF0000;
+}
+
+@keyframes fadeOut{
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+@keyframes fadeIn{
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
