@@ -16,7 +16,7 @@
   font-weight: regular;
 
   box-sizing: border-box;
-  padding: 10px 5%;
+  padding: 10px 5% 20px;
   border: 0px;
 }
 
@@ -32,6 +32,15 @@
   padding: 10px 10%;
   border: 0px;
   margin: 10px;
+}
+
+.subtitle{
+  font-family:'Inconsolata', monospace, italic;
+  font-size: 1.8em;
+  font-color: #0000FF;
+  font-weight: light;
+
+  padding: 10px 0% 20px;
 }
 
 .kor{
