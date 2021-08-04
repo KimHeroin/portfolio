@@ -5,8 +5,27 @@
   font-weight: 400;
 
   box-sizing: border-box;
-  padding: 100px 10%;
+  padding: 80px 10%;
+}
 
+.container{}
+
+.first_container{
+  padding: 0 10%;
+}
+
+.reachme{
+  background: #FFFFFF;
+  opacity: 60;
+}
+
+.reachme_text{
+  font-family:'Inconsolata', monospace;
+  font-size: 1em ;
+  font-color: #000000;
+  font-weight: 400;
+
+  padding: 20% 20%;
 }
 
 .title{
@@ -22,7 +41,7 @@
 
 span.subtitle{
   font-family:'Inconsolata', monospace;
-  font-size: 1.5em ;
+  font-size: 0.8em ;
   font-color: #000000;
   font-weight: 400;
 }
@@ -50,6 +69,24 @@ span.subtitle{
   padding: 10px 5% 0px;
 }
 
+.contact{
+  font-family:'Inconsolata', monospace;
+  font-size: 1.2em;
+  font-color: #0000FF;
+  font-weight: 400;
+
+  padding: 10px 5% 0px;
+}
+
+.contact_active{
+  font-family:'Inconsolata', monospace;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-color:#FF0000;
+
+  padding: 10px 5% 0px;
+}
+
 .kor{
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.2em;
@@ -69,4 +106,17 @@ a:hover{
   background: #9dcee0;
   color: #000000;
   text-decoration: none;
+}
+
+.back a:hover{
+  color:#000000;
+  text-decoration: none;
+}
+
+.contact a:link, a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+.contact a:hover{
+  color:#FF0000;
 }
