@@ -52,7 +52,15 @@ span.subtitle{
   box-sizing : border-box;
   padding:50% 10% 0 ;
 }
+.aboutme{
+  font-family:'Inconsolata', monospace;
+  font-size: 1.2em;
+  font-color: #000000;
+  font-weight: 400;
 
+  position: absolute;
+  padding: 10% 5%;
+}
 .back{
   font-family:'Inconsolata', monospace;
   font-size: 1em;
