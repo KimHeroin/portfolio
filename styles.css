@@ -50,7 +50,7 @@ span.subtitle{
 
   background-color: #FFFFFF;
   box-sizing : border-box;
-  padding:100px 10% 0 ;
+  padding:50% 10% 0 ;
 }
 
 .back{
@@ -60,10 +60,17 @@ span.subtitle{
   font-weight: 400;
 
   position: absolute;
-  padding: 10px 10px 0px;
+  padding: 10px 10px;
   text-align: right;
 }
+.content{
+  font-family:'Inconsolata', monospace;
+  font-size: 1em;
+  font-color: #0000FF;
+  font-weight: 400;
 
+  padding: 10px 10px;
+}
 .contact{
   font-family:'Inconsolata', monospace;
   font-size: 1.2em;
@@ -116,6 +123,10 @@ a:hover{
   color:#FF0000;
 }
 
+img{
+  width: 40%;
+  height: auto;
+}
 @keyframes fadeOut{
   from {opacity: 1;}
   to {opacity: 0;}
