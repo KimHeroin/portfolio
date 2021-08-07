@@ -42,11 +42,15 @@ span.subtitle{
   font-size: 1.5em;
   font-color: #000000;
   font-weight: 400;
-
-
   box-sizing : border-box;
   padding:50% 10%;
 }
+
+#facecube{
+  width: windowWidth;
+  height: windowHeight;
+}
+
 .aboutme{
   font-family:'Inconsolata', monospace;
   font-size: 1.2em;
