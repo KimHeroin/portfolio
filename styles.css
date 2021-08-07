@@ -16,8 +16,9 @@
   font-color: #000000;
   font-weight: 400;
 
-  padding: 20% 20%;
-  width: windowWidth;
+  padding: 50% 20%;
+  background-color: #FFFFFF;
+  opacity: 60;
 }
 
 .title{
