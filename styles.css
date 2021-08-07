@@ -63,7 +63,7 @@ span.subtitle{
 }
 .back{
   font-family:'Inconsolata', monospace;
-  font-size: 1em;
+  font-size: 0.6em;
   font-color: #0000FF;
   font-weight: 400;
 
@@ -129,10 +129,6 @@ button{
   border: none;
 }
 
-img{
-  align: center;
-}
-
 .back a:hover{
   color:#000000;
   text-decoration: none;
@@ -142,11 +138,6 @@ img{
   color:#FF0000;
 }
 
-.pictures{
-  text-align: center;
-  width: 80%;
-  height: auto;
-}
 @keyframes fadeOut{
   from {opacity: 1;}
   to {opacity: 0;}
