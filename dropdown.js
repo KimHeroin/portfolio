@@ -4,13 +4,13 @@ function myFunction() {
 
 window.onclick = function(event) {
   if (!event.target.matches('.contact')) {
-    //var dropdowns = document.getElementsByClassName("reachme_context");
-    //var i;
-  //  for (i = 0; i < dropdowns.length; i++) {
-    //  var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+    var dropdowns = document.getElementsByClassName("reachme_context");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
       }
     }
   }
-//}
+}
