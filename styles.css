@@ -83,6 +83,8 @@ span.subtitle{
   font-weight: 400;
 
   padding: 10px 5% 10px;
+  border: none;
+  background-color: #FFFFFF;
 }
 .show{display: block;}
 
