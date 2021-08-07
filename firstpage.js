@@ -22,7 +22,7 @@ function draw() {
   rotateY(angle+(mouseY)*0.0008);
   rotateZ(angle+(mouseX+mouseY)*0.0008);
   noStroke();
-  box(300);
+  box(sketchWidth/2.5);
   sphere()
   angle+=0.005;
 }
