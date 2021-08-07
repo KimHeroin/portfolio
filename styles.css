@@ -18,7 +18,6 @@
 
   padding: 50% 20%;
   background-color: #FFFFFF;
-  opacity: 60;
 }
 
 .title{
@@ -66,14 +65,7 @@ span.subtitle{
   padding: 10px 10px;
   text-align: right;
 }
-.content{
-  font-family:'Inconsolata', monospace;
-  font-size: 1em;
-  font-color: #0000FF;
-  font-weight: 400;
 
-  padding: 10px 10px;
-}
 .contact_container{
   position: relative; display: inline-block;
 }
@@ -89,6 +81,18 @@ span.subtitle{
 }
 .show{display: block;}
 
+.content{
+  padding: 10px 10px;
+}
+.video_text{
+  text-align: center;
+  width: 70%;
+  padding: 5px 3px 20px 3px;
+  font-family:'Inconsolata', monospace;
+  font-size: 0.8em;
+  font-color: #0000FF;
+  font-weight: 400;
+}
 .kor{
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.2em;
@@ -126,7 +130,8 @@ button{
 }
 
 .pictures{
-  width: 40%;
+  text-align: center;
+  width: 80%;
   height: auto;
 }
 @keyframes fadeOut{
