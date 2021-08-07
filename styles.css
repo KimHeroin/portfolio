@@ -47,13 +47,15 @@ span.subtitle{
 }
 
 #facecube{
-  width: windowWidth;
-  height: windowHeight;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 100px 0;
 }
 
 .aboutme{
   font-family:'Inconsolata', monospace;
-  font-size: 1.2em;
+  font-size: 1em;
   font-color: #000000;
   font-weight: 400;
 
