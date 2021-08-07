@@ -8,18 +8,6 @@
   padding: 80px 8%;
 }
 
-.reachme_text{
-  display: none;
-  position: absolute;
-  font-family:'Inconsolata', monospace;
-  font-size: 1em ;
-  font-color: #000000;
-  font-weight: 400;
-
-  padding: 50% 50%;
-  background-color: #FFFFFF;
-}
-
 .title{
   font-family:'Inconsolata', monospace;
   font-size: 2em ;
@@ -50,6 +38,20 @@ span.subtitle{
   width: 100%;
   height: 100%;
   position: absolute;
+}
+#myDropdown{
+  width: windowWidth;
+}
+.reachme_text{
+  display: none;
+  position: absolute;
+  font-family:'Inconsolata', monospace;
+  font-size: 1em ;
+  font-color: #000000;
+  font-weight: 400;
+
+  padding: 50% 50%;
+  background-color: #FFFFFF;
 }
 
 .aboutme{
