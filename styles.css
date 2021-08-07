@@ -99,7 +99,7 @@ span.subtitle{
   font-weight: 400;
 }
 .pictures{
-  text-align: center;
+  align: center;
   width: 80%;
   height: auto;
 }
