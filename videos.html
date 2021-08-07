@@ -9,13 +9,50 @@
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Noto+Sans+KR:wght@100;300;400&display=swap" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" sizes="32x32" href="iamges/favicon-32x32.png">
   <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <style>
+	#myBtn {
+  		display: none;
+ 		 position: fixed;
+ 		 bottom: 20px;
+ 		 right: 30px;
+ 		 z-index: 99;
+  		font-size: 0.8em;
+ 		 border: none;
+		  outline: none;
+ 		 color: #a1a1a1;
+ 		 background-color: #FFFFFF;
 
-	<script type="text/javascript" src="scrollbutton.js"></script>
+ 		 transition: 0.2s;
+		}
+      #myBtn:hover{
+		  color: #FF0000;
+		}
+	  </style>
 </head>
 
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+	  </script>
     <div class="container"><a href="index.html" class="back">← Back to the main page</a></div>
     <div class="title">Kim Heroin<span class="subtitle"><i>/videos</i></span></div>
     <div class="content" style="text-align: center">
