@@ -11,11 +11,17 @@
 		<link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 		<script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
 		<script src="../p5.min.js"></script>
+		<script src="dropdown.js"></script>
   </head>
   <body>
-		<div class="contact"><a href="contact.html">Contact</a></div>
-		<div class="reachme" style="display: none; opacity:0">
-    </div>
+		<div class="contact_container">
+		<button onclick="myfunction()" class="contact">Contact</button>
+		<div id="myDropdown" class="reachme_text">
+				<a href="mailto:yebboona@snu.ac.kr">yebboona@snu.ac.kr</a><br>
+				<a href="tel:+82.010.3345.0431">010-3345-0431</a><br>
+				<a href="https://www.instagram.com/below_the_walls/"> @below_the_walls</a>
+		</div>
+	</div>
 
 		<div class="container">
 		<div class="first_title" style="display: block; position:absolute; opacity:1">Kim Heroin</div>

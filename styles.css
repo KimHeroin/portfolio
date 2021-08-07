@@ -10,18 +10,16 @@
 
 .container{}
 
-.reachme{
-  background: #FFFFFF;
-  opacity: 60;
-}
-
 .reachme_text{
+  display: none;
+  position: absolute;
   font-family:'Inconsolata', monospace;
   font-size: 1em ;
   font-color: #000000;
   font-weight: 400;
 
   padding: 20% 20%;
+  width: windowWidth;
 }
 
 .title{
@@ -77,23 +75,18 @@ span.subtitle{
 
   padding: 10px 10px;
 }
+.contact_container{
+  position: relative; display: inline-block;
+}
 .contact{
   font-family:'Inconsolata', monospace;
   font-size: 1.2em;
   font-color: #0000FF;
   font-weight: 400;
 
-  padding: 10px 5% 0px;
+  padding: 10px 5% 10px;
 }
-
-.contact_active{
-  font-family:'Inconsolata', monospace;
-  font-size: 1.2em;
-  font-weight: 400;
-  font-color: #FF0000;
-
-  padding: 10px 5% 0px;
-}
+.show{display: block;}
 
 .kor{
   font-family: 'Noto Sans KR', sans-serif;
@@ -121,11 +114,7 @@ a:hover{
   text-decoration: none;
 }
 
-.contact a:link, a:visited{
-  color: #000000;
-  text-decoration: none;
-}
-.contact a:hover{
+.contact:hover{
   color:#FF0000;
 }
 
