@@ -99,7 +99,6 @@ span.subtitle{
   font-weight: 400;
 }
 .pictures{
-  align: center;
   width: 80%;
   height: auto;
 }
@@ -128,6 +127,10 @@ button{
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
+}
+
+img{
+  align: center;
 }
 
 .back a:hover{
