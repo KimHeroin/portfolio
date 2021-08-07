@@ -1,10 +1,16 @@
 let angle=0;
 let img;
+
+var sketchWidth;
+var sketchHeight;
+
 function preload(){
   img = loadImage("images/me.jpg")
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
+  sketchWidth=document.getElementById("facecube").offsetWidth;
+  sketchHeight=document.getElementById("facecube").offsetHeight;
+  createCanvas(sketchWidth, sketchHeight, WEBGL);
   textureWrap(CLAMP);
 }
 function draw() {
@@ -19,4 +25,10 @@ function draw() {
   box(300);
   sphere()
   angle+=0.005;
+}
+
+function windowResized(){
+  sketchWidth = document.getElementById("facecube").offsetWidth;
+  sketchheight = document.getElementById("facecube").offsetHeight;
+  resizeCanvas(sketchWidth, sketchHeight);
 }
