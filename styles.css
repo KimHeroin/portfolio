@@ -123,6 +123,14 @@ span.subtitle{
   width: 50%;
   background-color: #42aad6;
 }
+#book3{
+  width: 90%;
+  background-color: #e7f03e;
+}
+#book4{
+  width: 70%;
+  background-color: #844de3;
+}
 .book_title{
   font-family:'Inconsolata', monospace;
   font-size: 1.2em;
