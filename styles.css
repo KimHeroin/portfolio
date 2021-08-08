@@ -42,15 +42,12 @@ span.subtitle{
   width: windowWidth;
 }
 .reachme_text{
-  display: none;
-  position: absolute;
   font-family:'Inconsolata', monospace;
-  font-size: 2em ;
+  font-size: 1.2em ;
   font-color: #000000;
   font-weight: 400;
 
-  padding: 50px 50px;
-  text-align: center;
+  padding: 250px 8%;
   background-color: #FFFFFF;
 }
 
