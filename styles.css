@@ -106,9 +106,8 @@ span.subtitle{
 .book_container{
   padding-top: 25px;
 }
-.book_wrap{
+.book_wrap:hover{
   background-color: #000000;
-  transition: 0.3s;
 }
 .book{
   margin: 2px;
