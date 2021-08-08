@@ -51,12 +51,12 @@ span.subtitle{
 
 .aboutme{
   font-family:'Inconsolata', monospace;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #000000;
   font-weight: 400;
   max-width: 1200px;
   min-width: 600px;
-  padding: 180px 5% 3% 5%;
+  padding: 800px 5% 3% 5%;
   position: absolute;
 }
 .back{
