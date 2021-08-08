@@ -124,9 +124,9 @@ span.subtitle{
 }
 .kor{
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1em;
+  font-size: 0.9em;
   font-color: #000000;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 a:link{
