@@ -84,7 +84,10 @@ span.subtitle{
   transition: 0.5s;
 }
 .show{display: block;}
-
+.doctor{
+  font-family:'Inconsolata', monospace;
+  font-size: 0.7em;
+}
 .content{
   padding: 10px 10px;
 }
