@@ -162,7 +162,25 @@ span.subtitle{
   padding: 10px 5%;
   min-width: 600px;
 }
-  
+.essay_title_kor{
+  font-family:'Noto Sans KR', sans-serif;
+  font-size: 3.4em;
+  font-weight: 400;
+  padding: 10px 5%;
+  min-width: 600px;
+}
+.essay_body_kor{
+  font-family:'Noto Sans KR', sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 10px 8%;
+}
+.essay_body{
+  font-family:'Inconsolata', monospace;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 10px 8%;
+}
 a:link{
   color: #000000;
 }
