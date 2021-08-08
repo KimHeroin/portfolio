@@ -112,13 +112,13 @@ span.subtitle{
   border: 1.5px;
   border-style: solid;
   border-color: #1f1f1f;
-  padding: 15px 5%;
-  transition: 0.3s;
 }
-.book1{
+#book1{
+  width: 80%;
   background-color: #d41d08;
 }
-.book2{
+#book2{
+  width: 50%;
   background-color: #42aad6;
 }
 .book_title{
@@ -127,7 +127,7 @@ span.subtitle{
   font-color: #000000;
   font-weight: 400;
 }
-.book1, .book2:hover{
+.book_wrap:hover{
   background-color: #000000;
   font-color: #FFFFFF;
 }
