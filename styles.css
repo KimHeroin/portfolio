@@ -58,7 +58,8 @@ span.subtitle{
   font-size: 1em;
   font-color: #000000;
   font-weight: 400;
-
+  max-width: 1200px;
+  min-width: 600px;
   padding: 180px 5% 0% 5%;
 }
 .back{
