@@ -130,6 +130,7 @@ span.subtitle{
 .book_wrap:hover{
   background-color: #000000;
   font-color: #FFFFFF;
+  transition: 0.3s;
 }
 .kor{
   font-family: 'Noto Sans KR', sans-serif;
