@@ -106,10 +106,7 @@ span.subtitle{
 .book_container{
   padding-top: 25px;
 }
-.book_wrap:hover{
-  background-color: #000000;
-}
-.book{
+.book_wrap{
   margin: 2px;
   border: 1.5px;
   border-style: solid;
@@ -117,13 +114,19 @@ span.subtitle{
   padding: 15px 5%;
   transition: 0.3s;
 }
+.book1{
+  background-color: #d41d08;
+}
+.book2{
+  background-color: #42aad6;
+}
 .book_title{
   font-family:'Inconsolata', monospace;
   font-size: 1.2em;
   font-color: #000000;
   font-weight: 400;
 }
-.book:hover{
+.book1, book2:hover{
   background-color: #000000;
   font-color: #FFFFFF;
 }
