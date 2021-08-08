@@ -36,11 +36,9 @@ span.subtitle{
   height: 100%;
   position: absolute;
   max-width: 1200px;
-  min-width: 600px;
+  min-width: 300px;
 }
-#myDropdown{
-  width: windowWidth;
-}
+
 .reachme_text{
   font-family:'Inconsolata', monospace;
   font-size: 1.2em ;
@@ -85,9 +83,13 @@ span.subtitle{
   transition: 0.5s;
 }
 .show{display: block;}
+
 .doctor{
   font-family:'Inconsolata', monospace;
-  font-size: 0.7em;
+  font-size: 1em;
+  position: absolute;
+  padding: 120px 0 0;
+  text-align: center;
 }
 .content{
   padding: 10px 10px;
