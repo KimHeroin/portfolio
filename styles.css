@@ -106,6 +106,10 @@ span.subtitle{
 .book_container{
   padding-top: 25px;
 }
+.book_wrap{
+  background-color: #000000;
+  transition: 0.3s;
+}
 .book{
   margin: 2px;
   border: 1.5px;
