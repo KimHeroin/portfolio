@@ -53,8 +53,7 @@ span.subtitle{
   font-weight: 400;
   max-width: 1200px;
   min-width: 600px;
-  padding: 800px 5% 3% 5%;
-  position: absolute;
+  padding: 25% 5% 3% 5%;
 }
 .back{
   font-family:'Inconsolata', monospace;
