@@ -63,9 +63,8 @@ span.subtitle{
 .back{
   font-family:'Inconsolata', monospace;
   font-size: 0.8em;
-  font-color: #0000FF;
   font-weight: 400;
-
+  transition: 0.1s;
   position: absolute;
   padding: 10px 5%;
   text-align: right;
@@ -202,7 +201,7 @@ button{
 }
 
 .back a:hover{
-  color:#000000;
+  color:#d6d6d6;
   text-decoration: none;
 }
 
