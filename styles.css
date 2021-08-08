@@ -3,7 +3,7 @@
   font-size: 3.6em ;
   font-color: #000000;
   font-weight: 400;
-
+  min-width: 400px;
   box-sizing: border-box;
   padding: 80px 8%;
 }
@@ -35,6 +35,8 @@ span.subtitle{
   width: 100%;
   height: 100%;
   position: absolute;
+  max-width: 1200px;
+  min-width: 600px;
 }
 #myDropdown{
   width: windowWidth;
