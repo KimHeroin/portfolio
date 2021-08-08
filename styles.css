@@ -110,7 +110,7 @@ span.subtitle{
 .book{
   border: 2px;
   border-color: #000000;
-  padding: 10% 5%;
+  padding: 10px 5%;
 }
 .book_title{
   font-family:'Inconsolata', monospace;
@@ -118,7 +118,7 @@ span.subtitle{
   font-color: #000000;
   font-weight: 400;
 }
-.book_title:hover{
+.book:hover{
   background-color: #000000;
   font-color: #FFFFFF;
 }
