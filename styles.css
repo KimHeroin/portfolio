@@ -103,11 +103,29 @@ span.subtitle{
   width: 80%;
   height: auto;
 }
+
+.book_container{
+  padding-top: 10px;
+}
+.book{
+  border: 2px;
+  border-color: #000000;
+}
+.book_title{
+  font-family:'Inconsolata', monospace;
+  font-size: 1em;
+  font-color: #000000;
+  font-weight: 400;
+}
+.book_title:hover{
+  background-color: #000000;
+  font-color: #FFFFFF;
+}
 .kor{
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   font-color: #000000;
-  font-weight: light;
+  font-weight: 400;
 }
 
 a:link{
