@@ -112,6 +112,8 @@ span.subtitle{
   border-color: #1f1f1f;
   color: #000000;
   padding: 20px 5px;
+  min-width: 600px;
+  max-width: 1200px;
 }
 #book1{
   width: 80%;
