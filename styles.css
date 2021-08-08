@@ -126,7 +126,7 @@ span.subtitle{
   font-color: #000000;
   font-weight: 400;
 }
-.book1, book2:hover{
+.book1, .book2:hover{
   background-color: #000000;
   font-color: #FFFFFF;
 }
