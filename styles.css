@@ -112,7 +112,8 @@ span.subtitle{
   border: 1.5px;
   border-style: solid;
   border-color: #1f1f1f;
-  font-color: #000000;
+  color: #000000;
+  padding: 20px 5px;
 }
 #book1{
   width: 80%;
@@ -129,7 +130,7 @@ span.subtitle{
 }
 .book_wrap:hover{
   background-color: #000000;
-  font-color: #FFFFFF;
+  color: #FFFFFF;
   transition: 0.3s;
 }
 .kor{
