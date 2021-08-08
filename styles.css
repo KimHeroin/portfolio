@@ -105,7 +105,8 @@ span.subtitle{
   padding-top: 10px;
 }
 .book{
-  border: 2px solid black;
+  margin: 2px;
+  border: 2px #1f1f1f;
   padding: 10px 5%;
 }
 .book_title{
