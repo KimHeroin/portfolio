@@ -72,7 +72,7 @@ span.subtitle{
 }
 
 .contact_container{
-  position: relative; display: inline-block;
+  position: relative; 
 }
 .contact{
   font-family:'Inconsolata', monospace;
