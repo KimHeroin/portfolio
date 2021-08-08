@@ -112,6 +112,7 @@ span.subtitle{
   border: 1.5px;
   border-style: solid;
   border-color: #1f1f1f;
+  font-color: #000000;
 }
 #book1{
   width: 80%;
@@ -124,7 +125,6 @@ span.subtitle{
 .book_title{
   font-family:'Inconsolata', monospace;
   font-size: 1.2em;
-  font-color: #000000;
   font-weight: 400;
 }
 .book_wrap:hover{
