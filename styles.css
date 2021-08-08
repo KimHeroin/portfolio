@@ -187,6 +187,10 @@ span.subtitle{
   font-weight: 400;
   padding: 10px 8%;
 }
+iframe{
+  width: 100%;
+  height: auto;
+}
 a:link{
   color: #000000;
 }
