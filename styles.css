@@ -87,9 +87,9 @@ span.subtitle{
 .doctor{
   font-family:'Inconsolata', monospace;
   font-size: 1em;
-  position: absolute;
-  padding: 120px 0 0;
-  text-align: center;
+  padding: 140px 0 0 20%;
+  max-width: 800px;
+  min-width: 400px;
 }
 .content{
   padding: 10px 10px;
