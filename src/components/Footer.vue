@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-        Contact
+        Contact<br>
         </div>
 </template>
 
