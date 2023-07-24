@@ -50,20 +50,38 @@
         </div>        
     
         <div class="list">
-                    <button class="button" @click="is03Visible = !is03Visible">2022 3d Motion Poster Series for Orgasmvalley, 1080*1920</button>
-                    <div v-if="is03Visible">
+                <button class="button" @click="is03Visible = !is03Visible">2022 3d Motion Poster Series for Orgasmvalley, 1080*1920</button>
+                <div v-if="is03Visible">
                         <br><br>
-                        <center><video  class="video" width="60%" height="auto" controls playsinline>
+                        <center>
+                            <video  class="video" width="60%" height="auto" controls playsinline>
                             <source src="../assets/videos/valley_workflow.mp4" type="video/mp4">
-                        </video></center>
+                        </video>
+                        <br>
+                        <div id="valleyReels">
+                            <video  class="video" width="28%" height="auto" controls playsinline>
+                                <source src="../assets/videos/valley01.mp4" type="video/mp4"></video>
+                            <video  class="video" width="28%" height="auto" controls playsinline>
+                                    <source src="../assets/videos/valley02.mp4" type="video/mp4"></video>
+                            <video  class="video" width="28%" height="auto" controls playsinline>
+                                    <source src="../assets/videos/valley03.mp4" type="video/mp4"></video>
+                            
+                                <br>
+
+                            <video  class="video" width="28%" height="auto" controls playsinline>
+                                    <source src="../assets/videos/valley04.mp4" type="video/mp4"></video>
+                            <video  class="video" width="28%" height="auto" controls playsinline>
+                                    <source src="../assets/videos/valley05.mp4" type="video/mp4"></video>
+                        
+                        </div></center>
 
                         <br>
                         <div class="description_text">
                             Produced weekly poster for a club named <a>Orgasmvalley</a>.<br>
                             Designed a cave-like space with bar elements, added different objects for each week, and rendered with various camera movements.<br>
                             To give identity of the word &#39;valley&#39;, some scenes depicts nature of Los Angeles, inland desert, short bushes, and some depicts its urban, city centered scenery.
-                        </div>
                     </div>
+                </div>
         </div>
 
         
@@ -95,14 +113,13 @@
                 <button class="button" @click="is01Visible = !is01Visible">2021 3d Music video for PIEBOY, 2”19”</button>
                 <div v-if="is01Visible">
                     <br><br>
-                    <center><video class="video" width="60%" height="auto" controls playsinline >
-                        <source src="../assets/videos/pieboy_mastered.mp4" type="video/mp4">
-                    </video></center>
+
+                    <center>
+                       </center>
 
                     <br>
                     <div class="description_text">
                         First 3d video work. Lyric video, music video, visualizer.<br>
-                        You can also watch from <a href="https://www.youtube.com/watch?v=2kE107Q6F3U">youtube.</a><br> 
                         Consists of 3 big scenes - room, virtual map, and monumental scene.<br> 
                         As the song itself is inspired by movie &lt;The Matrix&gt;, visuals are brought from some movie&#39;s core elements.
                     </div>
@@ -129,6 +146,9 @@ export default {
 
 <style scoped>
 
+#valleyReels{
+    display: inline-block;
+}
 center{
     text-align: center;
 }
