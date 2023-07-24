@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="list">
-            <button class="button" @click="is05Visible = !is05Visible">2023 3d Motion Video, 6m LED wall installation 02, 1”10</button>
-            <div v-if="is05Visible">
+            <button class="button" @click="is06Visible = !is06Visible">2023 3d Motion Video, 6m LED wall installation 02, 1”10</button>
+            <div v-if="is06Visible">
                 
             <center><video width="90%" height="auto" controls playsinline>
-                <source src="../assets/videos/gymboxx_rendered.mp4" type="video/mp4" poster="../assets/images/gymboxx_thumb.png">
+                <source src="../assets/videos/gymboxx_final_02.mp4" type="video/mp4" poster="../assets/images/gymboxx_thumb.png">
             </video></center>
                 <div class="description_text">
                         A big wall installation video for a gym.<br>
@@ -134,6 +134,7 @@
 export default {
     data() {
         return {
+            is06Visible: false,
             is05Visible: false,
             is04Visible: false,
             is03Visible: false,
