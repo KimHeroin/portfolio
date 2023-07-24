@@ -1,0 +1,6 @@
+learn how to deploy vue to github :
+
+https://learnvue.co/articles/deploy-vue-to-github-pages#step-3-run-git-add-dist-git-commit-m-adding-dist-subtree
+
+https://codingapple.com/unit/vue-build-and-deploy-with-github-pages/
+
